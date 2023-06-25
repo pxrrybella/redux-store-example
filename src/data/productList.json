@@ -1,0 +1,60 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Sample Product One",
+      "detail": "Description Sample Product One",
+      "price": 25,
+      "imageUrl": "https://i.pinimg.com/564x/c9/e0/8f/c9e08f94f086679aeebb2afdb506957b.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Sample Product Two",
+      "detail": "Description Sample Product Two",
+      "price": 50,
+      "imageUrl": "https://i.pinimg.com/564x/dd/52/a7/dd52a72459c98b11dea493aa076778e8.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Sample Product Three",
+      "detail": "Description Sample Product Three",
+      "price": 15,
+      "imageUrl": "https://i.pinimg.com/564x/af/62/41/af6241518af0767b211b75258f7b46ed.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Sample Product Four",
+      "detail": "Description Sample Product Four",
+      "price": 25,
+      "imageUrl": "https://i.pinimg.com/564x/e1/d1/ab/e1d1abb807ee752c54b27b2006fa3e67.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Sample Product Five",
+      "detail": "Description Super Sample Product Five",
+      "price": 95,
+      "imageUrl": "https://i.pinimg.com/564x/b5/5a/da/b55adade18db4e5f28dbc79263339c9f.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Sample Product Six",
+      "detail": "Description Sample Product Six",
+      "price": 120,
+      "imageUrl": "https://i.pinimg.com/564x/b2/2e/f2/b22ef2824fdeb4ee95d09f67ca9cf4a4.jpg"
+    },
+    {
+      "id": "7",
+      "name": "Sample Product Seven",
+      "detail": "Description Sample Product Seven",
+      "price": 25,
+      "imageUrl": "https://i.pinimg.com/564x/f2/ca/34/f2ca343cdc9576a069f27ad9ad7b3f09.jpg"
+    },
+    {
+      "id": "8",
+      "name": "Sample Product Eight",
+      "detail": "Description Sample Product Eight",
+      "price": 15,
+      "imageUrl": "https://i.pinimg.com/564x/9e/a4/11/9ea411f2a09970239878b9cd59aab870.jpg"
+    }
+  ]
+}

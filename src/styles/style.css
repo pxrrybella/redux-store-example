@@ -1,0 +1,150 @@
+/*
+.nav-icon {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
+}
+*/
+
+body {
+    background-image: url(https://i.pinimg.com/564x/c0/c6/f4/c0c6f40aa1c9a7c6c1b6fe6bae728900.jpg);
+}
+
+.navbar-title {
+    display: flex;
+    margin: 10px;
+    width: 400px;
+    height: 100px;
+    border: 2px dashed #ee7e98;
+    border-radius: 20px;
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: 0px 300px;
+    align-items: center;
+    justify-content: center;
+    color: #ee7e98;
+    text-shadow: 1px 0px 4px rgb(158, 0, 34);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: all 0.5s;
+}
+
+.navbar-title:hover {
+    color: #e65879;
+    background-position: 0px 295px;
+    transition: all 0.5s;
+}
+
+.cart {
+    display: flex;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: #ffe2e9;
+    border: 2px dashed #ee7e98;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    color: #ee7e98;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: all 0.5s;
+}
+
+.navbar-link {
+    text-decoration: none;
+}
+
+.navbar-link:visited {
+    text-decoration: none;
+}
+
+.cart-number {
+    border: 1px solid #ee7e98;
+    text-align: center;
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;;
+}
+
+.cart-items {
+    width: 80%;
+}
+
+.checkout-section {
+    width: 400px;
+}
+
+.cart-image-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.pink-background {
+    color: white;
+    background-color: #e96382;
+}
+
+.main-store {
+    width: 90%;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: 2px dashed #ee7e98;
+    background-image: url(https://i.pinimg.com/564x/bf/83/67/bf83676bc35f325514ab0f8c7056a40c.jpg);
+}
+
+.main-store h2 {
+    margin-top: 10px;
+    margin-left: 100px;
+    font-family: 'Simsun';
+    color:#e96382;
+    text-shadow: 2px 2px 5px rgb(202, 1, 34);
+}
+
+.product {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    margin: 10px;
+    border: 2px dashed #ee7e98;
+    background-color: #ffbdcd;
+    border-radius: 20px;
+}
+
+.product p {
+    font-family: 'simsun';
+    font-size: 20px;
+    text-transform: lowercase;
+    color: #e65879
+}
+
+.btn-pink {
+    background-color: #e65879;
+}
+
+.btn-pink:hover {
+    background-color: #ee7e98;
+}
+
+.btn-pink:active {
+    background-color: #ee7e98;
+}
+
+.btn-pink:focus {
+    background-color: #ee7e98;
+}
+
+.btn-outline-pink {
+    border: 2px dashed #ee7e98;
+}
+
+.dark-mode-button {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+.footer {
+    margin-top: 20px;
+    background-color: #ffd3e5;
+}
