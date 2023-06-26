@@ -1,14 +1,9 @@
-/*
-.nav-icon {
-    width: 50px;
-    height: 50px;
-    margin: 10px;
-    border-radius: 50%;
+* {
+    cursor: url(../img/Normal_Select.cur), auto;
 }
-*/
 
 body {
-    background-image: url(https://i.pinimg.com/564x/c0/c6/f4/c0c6f40aa1c9a7c6c1b6fe6bae728900.jpg);
+    background-image: url(../img/background-b.jpg);
 }
 
 .navbar-title {
@@ -67,11 +62,12 @@ body {
 }
 
 .cart-items {
-    width: 80%;
+    width: 60%;
 }
 
 .checkout-section {
-    width: 400px;
+    text-align: center;
+    width: 20%;
 }
 
 .cart-image-buttons {
@@ -90,7 +86,7 @@ body {
     margin-bottom: 20px;
     border-radius: 20px;
     border: 2px dashed #ee7e98;
-    background-image: url(https://i.pinimg.com/564x/bf/83/67/bf83676bc35f325514ab0f8c7056a40c.jpg);
+    background-image: url(../img/background-a.jpg);
 }
 
 .main-store h2 {
@@ -102,9 +98,21 @@ body {
 }
 
 .product {
+    font-family: 'Simsun';
     display: flex;
     align-items: center;
     width: 400px;
+    margin: 10px;
+    border: 2px dashed #ee7e98;
+    background-color: #ffbdcd;
+    border-radius: 20px;
+}
+
+.cart-product {
+    font-family: 'Simsun';
+    display: flex;
+    align-items: center;
+    width: 200px;
     margin: 10px;
     border: 2px dashed #ee7e98;
     background-color: #ffbdcd;
@@ -145,6 +153,122 @@ body {
 }
 
 .footer {
-    margin-top: 20px;
+    margin-bottom: -20px;
+    bottom: 0px;
     background-color: #ffd3e5;
+}
+
+.footer-container {
+    padding: 20px;
+    color: #e65879;
+    font-family: 'Simsun';
+}
+
+.checkout-dialog {
+    padding: 50px;
+    border-radius: 20px;
+    border: 2px dashed #ee7e98;
+    background-image: url(../img/background-a.jpg);
+}
+
+.checkout-dialog::backdrop {
+    background-color: rgba(153, 55, 79, 0.281);
+}
+
+.home-toast {
+    margin: 20px;
+    padding: 10px;
+    background-color: #ffbdcd;
+    background-image: url(../img/background-b.jpg);
+    background-size: cover;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    width: 200px;
+    z-index: 10;
+    text-shadow: 1px 2px 2px #e65879;
+    border: 2px dashed #ee7e98;
+    border-radius: 20px;
+}
+
+.home-toast::before {
+    position: fixed;
+    width: 25px;
+    height: 25px;
+    content: ' ❀ ';
+    font-size: 20px;
+    right: 10px;
+    bottom: 50px;
+    color: #e65879;
+    background-color: #ffbdcd;
+    transform: rotate(45deg);
+    text-shadow: none;
+}
+
+.home-toast::after {
+    position: fixed;
+    right: 10px;
+    bottom: 90px;
+    z-index: -1;
+    content: url(../img/toast-deco.webp);
+}
+
+.hidden {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+
+    nav {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navbar-title {
+        background-position: 0px 200px;
+        width: 80vw;
+    }
+
+    .navbar-title:hover {
+        background-position: 0px 210px;
+    }
+
+    .btn {
+        width: 80%;
+        margin-bottom: 10px;
+    }
+    
+    .cart-container h2 {
+        margin-left: 0px;
+    }
+
+    .cart-items {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .checkout-section {
+        text-align: center;
+        width: 100%;
+    }
+
+    .product {
+        margin-left: 10%;
+        width: 80%;
+    }
+
+    .main-store h2 {
+        margin-left: 0px;
+    }
+
+    .home-toast {
+        display: none;
+    }
+
 }

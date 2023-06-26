@@ -11,6 +11,10 @@ const Home = () => {
 
     return (
         <main class="container main-store">
+            <aside class="home-toast" onClick={()=> document.querySelector(".home-toast").classList.toggle("hidden")}>
+                <span>Click on the cart icon to checkout! ☆～（ゝ。∂）</span>
+                <sub>Click this notification to close it.</sub>
+            </aside>
             <h2>Products</h2>
             <section class="d-flex flex-wrap align-items-center justify-content-center">
             {productList.products.map(
