@@ -8,7 +8,7 @@ const Footer = () => {
                     <h3>Kawaii Store</h3>
                     <p>This is a prototype.</p>
                     <h5>What is "Kawaii Store"?</h5>
-                        <div class="d-sm-flex">
+                        <div class="d-lg-flex">
                             <img class="footer-gif" src={cinamoroll} alt="gif"/>
                             <span> 
                             <p>Kawaii Store is a personal practice project I did to practice 
