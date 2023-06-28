@@ -13,3 +13,7 @@ I decided to go for a store like web.
 - Footer added.
 - Footer fixed.
 - Font issue fixed.
+
+## Deploy
+
+[Here](https://storied-syrniki-df70ad.netlify.app/) you can find the netlify deploy!
