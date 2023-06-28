@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200;300&display=swap');
+
 * {
     cursor: url(../img/Normal_Select.cur), auto;
+    font-smooth: 0px;
 }
 
 body {
@@ -92,13 +95,13 @@ body {
 .main-store h2 {
     margin-top: 10px;
     margin-left: 100px;
-    font-family: 'Simsun';
+    font-family: 'Noto Serif TC';
     color:#e96382;
     text-shadow: 2px 2px 5px rgb(202, 1, 34);
 }
 
 .product {
-    font-family: 'Simsun';
+    font-family: 'Noto Serif TC', serif;
     display: flex;
     align-items: center;
     width: 400px;
@@ -109,7 +112,7 @@ body {
 }
 
 .cart-product {
-    font-family: 'Simsun';
+    font-family: 'Noto Serif TC', serif;
     display: flex;
     align-items: center;
     width: 200px;
@@ -120,7 +123,7 @@ body {
 }
 
 .product p {
-    font-family: 'simsun';
+    font-family: 'Noto Serif TC', serif;
     font-size: 20px;
     text-transform: lowercase;
     color: #e65879
@@ -156,12 +159,55 @@ body {
     margin-bottom: -20px;
     bottom: 0px;
     background-color: #ffd3e5;
+    display: flex;
+    justify-content: center;
 }
 
 .footer-container {
+    width: 60%;
+    line-height: calc(1);
     padding: 20px;
     color: #e65879;
-    font-family: 'Simsun';
+    font-family: 'Noto Serif TC', serif;
+}
+
+.footer-first-section {
+    border: 1px dashed #e65879;
+    height: 230px;
+    width: 50%;
+    margin: 10px;
+    background-image: url(../img/background-a.jpg);
+}
+
+.footer-first-section a {
+    cursor: pointer;
+    color: #e65879;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.footer-first-section:hover {
+    transform: scale(0.99);
+}
+
+.footer-second-section {
+    border: 1px dashed #e65879;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 230px;
+    width: 50%;
+    margin: 10px;
+    background-image: url(../img/background-a.jpg);
+}
+
+.footer-second-section:hover {
+    transform: scale(0.99);
+}
+
+.footer-gif {
+    height: 120px;
 }
 
 .checkout-dialog {
@@ -269,6 +315,16 @@ body {
 
     .home-toast {
         display: none;
+    }
+
+    .footer-first-section {
+        height: inherit;
+        width: 100%;
+    }
+
+    .footer-second-section {
+        height: inherit;
+        width: 100%;
     }
 
 }
